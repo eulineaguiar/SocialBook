@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <title>Social Book</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://use.fontawesome.com/fb956f9e57.js"></script>
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="img/logo (3).png" class="logo">
+            <ul>
+                <li><img src="img/notification.png"></li>
+                <li><img src="img/inbox.png"></li>
+                <li><img src="img/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="img/search (1).png">
+                <input type="text" placeholder="Buscar">
+            </div>
+            <div class="nav-user-icon online" onclick="settinsMenuToggle()">
+                <img src="img/profile-pic.png">
+            </div>
+        </div>
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="img/profile-pic.png">
+                    <div>
+                        <p>Pedro Souza</p>
+                        <a href="#">Veja seu Perfil</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="img/feedback.png">
+                    <div>
+                        <p>Dar Feedback</p>
+                        <a href="#">Ajude-nos a melhorar.</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="img/setting.png" class="settings-icon">
+                    <a href="#">Configurações e Privacidade <img src="img/arrow (1).png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="img/help.png" class="settings-icon">
+                    <a href="#">Ajuda e Suporte <img src="img/arrow (1).png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="img/display.png" class="settings-icon">
+                    <a href="#">Exibição e Acessibilidade <img src="img/arrow (1).png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="img/logout.png" class="settings-icon">
+                    <a href="#">Sair <img src="img/arrow (1).png" width="10px"></a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- left-sidrbar------------------- -->
+
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="img/news.png"> Notícias Recentes</a>
+                <a href="#"><img src="img/friends.png"> Amigos</a>
+                <a href="#"><img src="img/group.png"> Grupo</a>
+                <a href="#"><img src="img/marketplace.png"> Mercado</a>
+                <a href="#"><img src="img/watch.png"> Assistir</a>
+                <a href="">Ver Mais</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Seus Atalhos</p>
+                <a href="#"><img src="img/shortcut-1.png">Desenvolvedores Web</a>
+                <a href="#"><img src="img/shortcut-2.png">Curso de Design Web</a>
+                <a href="#"><img src="img/shortcut-3.png">Desenvolvimento Full Stack</a>
+                <a href="#"><img src="img/shortcut-4.png">Ux Designer</a>
+
+            </div>
+        </div>
+        <!-- main-content------------------- -->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="img/upload.png">
+                    <p>Criar Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="img/member-1.png">
+                    <p>Alison</p>
+                </div>
+                <div class="story story3">
+                    <img src="img/member-2.png">
+                    <p>Matheus</p>
+                </div>
+                <div class="story story4">
+                    <img src="img/member-3.png">
+                    <p>Beatriz</p>
+                </div>
+                <div class="story story5">
+                    <img src="img/member-4.png">
+                    <p>Lucas</p>
+                </div>
+            </div>
+
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="img/profile-pic.png">
+                    <div>
+                        <p>Pedro Souza</p>
+                        <small>Público <i class="fa fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="No que você está pensando, Pedro?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="img/live-video.png"> Vídeo Ao Vivo</a>
+                        <a href="#"><img src="img/photo.png"> Foto/Vídeo</a>
+                        <a href="#"><img src="img/feeling.png"> Sentimento/Atividade</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile-pic.png">
+                        <div>
+                            <p>Pedro Souza</p>
+                            <span>13 de julho de 2024, 9h30 da manhã</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Inscreva-se no meu canal para assistir mais vídeos sobre design de websites. <a href="#"> #NovoPost
+                    </a><a href="#"> #MeuCanal</a></p>
+                <img src="img/feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/like-blue.png"> 120</div>
+                        <div><img src="img/comments.png"> 30</div>
+                        <div><img src="img/share.png"> 5</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/profile-pic.png"><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile-pic.png">
+                        <div>
+                            <p>Pedro Souza</p>
+                            <span>13 de julho de 2024, 10h da manhã</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Curta e Compartilhe esta postagem e compartilhe com seus amigos. <a href="#"> #NovoPost </a><a
+                        href="#"> #MeuCanal</a></p>
+                <img src="img/feed-image-2.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/like.png"> 120</div>
+                        <div><img src="img/comments.png"> 30</div>
+                        <div><img src="img/share.png"> 5</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/profile-pic.png"><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile-pic.png">
+                        <div>
+                            <p>Pedro Souza</p>
+                            <span>13 de julho de 2024, 11h30 da manhã</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Curta e Compartilhe esta postagem e compartilhe com seus amigos. <a href="#"> #NovoPost </a><a
+                        href="#"> #MeuCanal</a></p>
+                <img src="img/feed-image-3.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/like.png"> 120</div>
+                        <div><img src="img/comments.png"> 30</div>
+                        <div><img src="img/share.png"> 5</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/profile-pic.png"><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more">Carregar Mais</button>
+
+
+
+
+        </div>
+        <!-- right-sidrbar------------------- -->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Eventos</h4>
+                <a href="#">Ver Todos</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>Março</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa fa-map-marker"></i> Brasil</p>
+                    <a href="#">Mais Informações</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>Junho</span>
+                </div>
+                <div class="right-event">
+                    <h4>Marketing Móvel</h4>
+                    <p><i class="fa fa-map-marker"></i> Brasil</p>
+                    <a href="#">Mais Informações</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Anúncio</h4>
+                <a href="#">Fechar</a>
+            </div>
+            <img src="img/advertisement.png" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversa</h4>
+                <a href="#">Ocultar Conversa</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/member-1.png">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/member-2.png">
+                </div>
+                <p>Matheus Lima</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/member-3.png">
+                </div>
+                <p>Beatriz Rose</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2024 - Social Book</p>
+    </div>
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
